@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/wapopartners/PageBuilder-Selenium#readme",
   "dependencies": {
+    "selenium-standalone": "^5.5.0",
     "webdriverio": "^4.2.3"
   }
 }
