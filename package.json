@@ -1,0 +1,23 @@
+{
+  "name": "page-builder-selenium",
+  "version": "1.0.0",
+  "description": "PageBuilder's Selenium Tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wapopartners/PageBuilder-Selenium.git"
+  },
+  "keywords": [
+    "PageBuilder",
+    "Selenium"
+  ],
+  "author": "Michael Guild <michaelguild13@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wapopartners/PageBuilder-Selenium/issues"
+  },
+  "homepage": "https://github.com/wapopartners/PageBuilder-Selenium#readme"
+}
