@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/wapopartners/PageBuilder-Selenium/issues"
   },
-  "homepage": "https://github.com/wapopartners/PageBuilder-Selenium#readme"
+  "homepage": "https://github.com/wapopartners/PageBuilder-Selenium#readme",
+  "dependencies": {
+    "webdriverio": "^4.2.3"
+  }
 }
