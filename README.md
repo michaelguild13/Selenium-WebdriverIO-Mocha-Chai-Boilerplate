@@ -14,5 +14,10 @@ https://nodejs.org/en/download/
 
 Then run `npm install` in root directory
 
-###Run Tests
+##Run Tests
 `selenium-standalone start`
+
+##Tech Stack
+node <https://nodejs.org>
+selenium-standalone <https://github.com/vvo/selenium-standalone>
+webdriverio <https://github.com/webdriverio/webdriverio/>
