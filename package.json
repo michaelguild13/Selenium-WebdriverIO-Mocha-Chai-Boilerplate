@@ -1,0 +1,42 @@
+{
+  "name": "page-builder-selenium",
+  "version": "1.0.0",
+  "description": "PageBuilder's Selenium Tests",
+  "main": "test.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "babel-plugin-transform-runtime": "^6.12.0",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-register": "^6.11.6",
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2",
+    "selenium-standalone": "^5.5.0",
+    "sinon": "^1.17.5",
+    "wdio-firefox-profile-service": "0.0.1",
+    "wdio-mocha-framework": "^0.4.0",
+    "wdio-spec-reporter": "0.0.3",
+    "webdriverio": "^4.2.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wapopartners/PageBuilder-Selenium.git"
+  },
+  "keywords": [
+    "PageBuilder",
+    "Selenium"
+  ],
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha",
+    "testrunner": "./node_modules/.bin/wdio wdio.conf.js",
+    "testrunner-help": "./node_modules/.bin/wdio --help"
+  },
+  "author": "Michael Guild <michaelguild13@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wapopartners/PageBuilder-Selenium/issues"
+  },
+  "homepage": "https://github.com/wapopartners/PageBuilder-Selenium#readme"
+}
