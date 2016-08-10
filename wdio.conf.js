@@ -143,6 +143,7 @@ exports.config = {
         // http://sinonjs.org/
         var chai = require('chai');
         // http://chaijs.com/
+        var fetch = require('node-fetch');
 
         chai.config.includeStack = true;
         global.expect = chai.expect;

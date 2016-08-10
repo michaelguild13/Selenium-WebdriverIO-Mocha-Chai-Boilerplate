@@ -12,6 +12,7 @@
     "babel-register": "^6.11.6",
     "chai": "^3.5.0",
     "mocha": "^3.0.2",
+    "node-fetch": "^1.6.0",
     "selenium-standalone": "^5.5.0",
     "sinon": "^1.17.5",
     "wdio-firefox-profile-service": "0.0.1",
