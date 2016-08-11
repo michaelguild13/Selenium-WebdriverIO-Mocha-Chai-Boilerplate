@@ -20,6 +20,12 @@ sinon <https://sinonjs.org>
 `npm install`
 
 ##Run Tests
+-------------
 Run the selenium server `selenium-standalone start` and then run `npm run test`
 
 use `npm run test-help` to see webdriverio's testrunner commands
+
+##Notes
+-------------
+
+For configuration changes, please refer to the wdio.config.js file. All the information on how to configure this can be found on webdriverio <http://webdriver.io/guide/testrunner/configurationfile.html>
