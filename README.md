@@ -1,23 +1,21 @@
-#PageBuilder Selenium Tests
-Selenium + Node
-
-##Installation
--------------
-###Download selenium standalone server
-http://www.seleniumhq.org/download/
- `curl -0 http://selenium-release.storage.googleapis.com/3.0-beta1/selenium-server-standalone-3.0.0-beta1.jar`
-
-----------
-###Install Node
-Download and install node
-https://nodejs.org/en/download/
-
-Then run `npm install` in root directory
-
-##Run Tests
-`selenium-standalone start`
+#Selenium WebdriverIO Boilerplate with Mocha + Chai + Sinon
+Selenium + Node + webdriverio + mocha + chai + sinon
 
 ##Tech Stack
+-------------
 node <https://nodejs.org>
 selenium-standalone <https://github.com/vvo/selenium-standalone>
 webdriverio <https://github.com/webdriverio/webdriverio/>
+mocha <https://mochajs.org/>
+chai <https://chaijs.com>
+sinon <https://sinonjs.org>
+
+##Installation
+-------------
+`npm install`
+
+##Run Tests
+`selenium-standalone start`
+`npm run test`
+
+use `npm run test-help` to see webdriverio's testrunner commands

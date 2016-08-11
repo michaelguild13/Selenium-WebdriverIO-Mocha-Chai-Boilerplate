@@ -1,5 +1,5 @@
 {
-  "name": "page-builder-selenium",
+  "name": "selenium-webdriverio-mocha-chai-sinon-boilerplate",
   "version": "1.0.0",
   "description": "PageBuilder's Selenium Tests",
   "main": "test.js",
@@ -22,22 +22,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wapopartners/PageBuilder-Selenium.git"
+    "url": "git+https://github.com/michaelguild13/Selenium-WebdriverIO-Mocha-Chai-Sinon-Boilerplate.git"
   },
   "keywords": [
-    "PageBuilder",
-    "Selenium"
+    "Selenium",
+    "webdriverio",
+    "mocha",
+    "chai",
+    "sinon",
+    "test boilerplate"
   ],
   "devDependencies": {},
   "scripts": {
-    "test": "mocha",
-    "testrunner": "./node_modules/.bin/wdio wdio.conf.js",
-    "testrunner-help": "./node_modules/.bin/wdio --help"
+    "test": "./node_modules/.bin/wdio wdio.conf.js",
+    "test-help": "./node_modules/.bin/wdio --help"
   },
-  "author": "Michael Guild <michaelguild13@gmail.com>",
+  "author": "Michael Guild <michaelguild13@gmail.com> <mg@threde.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/wapopartners/PageBuilder-Selenium/issues"
+    "url": "https://github.com/michaelguild13/Selenium-WebdriverIO-Mocha-Chai-Sinon-Boilerplate.git/issues"
   },
-  "homepage": "https://github.com/wapopartners/PageBuilder-Selenium#readme"
+  "homepage": "https://github.com/michaelguild13/Selenium-WebdriverIO-Mocha-Chai-Sinon-Boilerplate.git#README"
 }
