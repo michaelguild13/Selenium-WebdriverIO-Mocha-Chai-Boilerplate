@@ -4,10 +4,15 @@ Selenium + Node + webdriverio + mocha + chai + sinon
 ##Tech Stack
 -------------
 node <https://nodejs.org>
+
 selenium-standalone <https://github.com/vvo/selenium-standalone>
+
 webdriverio <https://github.com/webdriverio/webdriverio/>
+
 mocha <https://mochajs.org/>
+
 chai <https://chaijs.com>
+
 sinon <https://sinonjs.org>
 
 ##Installation
@@ -15,7 +20,6 @@ sinon <https://sinonjs.org>
 `npm install`
 
 ##Run Tests
-`selenium-standalone start`
-`npm run test`
+Run the selenium server `selenium-standalone start` and then run `npm run test`
 
 use `npm run test-help` to see webdriverio's testrunner commands
