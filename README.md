@@ -1,11 +1,16 @@
 #Selenium WebdriverIO Boilerplate with Mocha + Chai + Sinon
 Selenium + Node + webdriverio + mocha + chai + sinon
 
+We are using Webdriverio's TestRunner on top of Selenium to run all of our tests in mocha.
+I also included sinon so we can use it for unit testing within mocha.
+
+-------------
 Author: Michael Guild from <http://threde.com>
 
 mg@threde.com
 
 michaelguild13@gmail.com
+-------------
 
 ##Tech Stack
 -------------
