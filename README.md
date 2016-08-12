@@ -3,33 +3,51 @@ Selenium + Node + webdriverio + mocha + chai + sinon
 
 ##Tech Stack
 -------------
-node <https://nodejs.org>
+node ( Version 6^ ) <https://nodejs.org>
 
 selenium-standalone <https://github.com/vvo/selenium-standalone>
 
 webdriverio <https://github.com/webdriverio/webdriverio/>
 
-mocha <https://mochajs.org/>
+Mocha <https://mochajs.org/>
 
-chai <https://chaijs.com>
+Chai <https://chaijs.com> ( test are written in Chai with es6 )
 
-sinon <https://sinonjs.org>
+Sinon <https://sinonjs.org> ( generates random units for testing )
+
 
 ##Installation
 -------------
 `npm install`
 
+`selenium-standalone install` (runs on port 4444)
+
+If you get a `command not found` error on the selenium install, you might need to install it globally
+`npm install -g selenium-standalone`
+
+Note: this installation requires Node 6^ and NPM 3^
+if you get an `cant connect to selenium`, it might be due to vagrant or another virtual machine.
+run `node run kill-selenium` to kill all machines running on port 4444.
+
 ##Run Tests
 -------------
-Run the selenium server `selenium-standalone start` and then run `npm run test`
+Run the selenium server `selenium-standalone start` and then run `npm run test` in a new terminal.
 
-use `npm run test-help` to see webdriverio's testrunner commands
+
+To kill/stop all selenium instances use: `npm run kill-selenium`.
+
+use `npm run help` to see webdriverio's testrunner commands.
 
 ##Notes
 -------------
+
+while developing note that `Class browser.whatever()` uses all the methods here: <http://webdriver.io/api.html>
 
 For configuration changes, please refer to the wdio.config.js file. All the information on how to configure this can be found on webdriverio <http://webdriver.io/guide/testrunner/configurationfile.html>
 
 The global scope for all tests is located in the `before` method inside of the wdio.config.js file
 
-`before: function (capabilities, specs) { ... }`
+`before: function (capabilities, specs) {
+  ...
+}
+`
