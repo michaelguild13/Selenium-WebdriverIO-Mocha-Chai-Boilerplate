@@ -10,7 +10,7 @@ Author: Michael Guild from <http://threde.com>
 mg@threde.com
 
 michaelguild13@gmail.com
--------------
+
 
 ##Tech Stack
 -------------
