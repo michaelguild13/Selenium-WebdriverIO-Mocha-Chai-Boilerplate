@@ -1,3 +1,6 @@
+// example of a test group
+// note: all tests under the test directory are ran
+
 describe('webdriver.io page', ()=> {
 
     it('should have the right title - the fancy generator way', ()=> {

@@ -1,6 +1,12 @@
 #Selenium WebdriverIO Boilerplate with Mocha + Chai + Sinon
 Selenium + Node + webdriverio + mocha + chai + sinon
 
+Author: Michael Guild from <http://threde.com>
+
+mg@threde.com
+
+michaelguild13@gmail.com
+
 ##Tech Stack
 -------------
 node ( Version 6^ ) <https://nodejs.org>
@@ -33,6 +39,7 @@ run `node run kill-selenium` to kill all machines running on port 4444.
 -------------
 Run the selenium server `selenium-standalone start` and then run `npm run test` in a new terminal.
 
+note: `npm run test`, runs all test within the test directory.
 
 To kill/stop all selenium instances use: `npm run kill-selenium`.
 
