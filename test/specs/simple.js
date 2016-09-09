@@ -8,6 +8,11 @@ describe('webdriver.io page', ()=> {
         browser.getTitle().should.be.equal('WebdriverIO - Selenium 2.0 javascript bindings for nodejs')
     });
 
+    it('does "What-is-WebdriverIO" link exsist?', ()=> {
+        browser.url('http://webdriver.io')
+        browser.getText('#What-is-WebdriverIO').should.be.equal('What is WebdriverIO?')
+    });
+
     it('All links should point to an exsiting page', ()=> {
         browser.url('http://webdriver.io')
         let links = browser.elements('a')
