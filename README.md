@@ -31,20 +31,20 @@ Sinon <https://sinonjs.org> ( generates random units for testing )
 -------------
 `npm install`
 
-`selenium-standalone install` (runs on port 4444)
+`selenium-standalone install`
 
 If you get a `command not found` error on the selenium install, you might need to install it globally
 `npm install -g selenium-standalone`
 
-Note: this installation requires Node 6^ and NPM 3^
+###Note: this installation requires Node 6^ , NPM 3^ , & Java 1.8^
 if you get an `cant connect to selenium`, it might be due to vagrant or another virtual machine.
 run `node run kill-selenium` to kill all machines running on port 4444.
 
 ##Run Tests
 -------------
-Run the selenium server `selenium-standalone start` and then run `npm run test` in a new terminal.
+Run the selenium server `selenium-standalone start` (runs on port 4444) and then run `npm test` in a new terminal.
 
-note: `npm run test`, runs all test within the test directory.
+note: `npm test`, runs all test within the test directory.
 
 To kill/stop all selenium instances use: `npm run kill-selenium`.
 
