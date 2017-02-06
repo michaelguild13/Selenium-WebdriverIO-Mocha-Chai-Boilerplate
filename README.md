@@ -31,11 +31,6 @@ Sinon <https://sinonjs.org> ( generates random units for testing )
 -------------
 `npm install`
 
-`selenium-standalone install`
-
-If you get a `command not found` error on the selenium install, you might need to install it globally
-`npm install -g selenium-standalone`
-
 ###Note: this installation requires Node 6^ , NPM 3^ , & Java 1.8^
 if you get an `cant connect to selenium`, it might be due to vagrant or another virtual machine.
 run `node run kill-selenium` to kill all machines running on port 4444.
