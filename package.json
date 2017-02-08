@@ -36,7 +36,6 @@
   "scripts": {
     "postinstall": "npm install -g selenium-standalone",
     "kill-selenium": "kill -15 $( lsof -i:4444 -t )",
-    "pretest": "selenium.start()",
     "test": "./node_modules/.bin/wdio wdio.conf.js",
     "help": "./node_modules/.bin/wdio --help"
   },
