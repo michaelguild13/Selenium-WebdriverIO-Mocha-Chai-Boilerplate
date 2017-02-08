@@ -1,7 +1,7 @@
 {
   "name": "selenium-webdriverio-mocha-chai-sinon-boilerplate",
-  "version": "1.0.0",
-  "description": "PageBuilder's Selenium Tests",
+  "version": "1.0.1",
+  "description": "Selenium Tests",
   "main": "test.js",
   "directories": {
     "test": "test"
