@@ -17,6 +17,7 @@
     "sinon": "^1.17.5",
     "wdio-firefox-profile-service": "0.0.1",
     "wdio-mocha-framework": "^0.5.8",
+    "wdio-selenium-standalone-service": "0.0.8",
     "wdio-spec-reporter": "0.0.5",
     "webdriverio": "^4.2.3"
   },
@@ -32,10 +33,10 @@
     "sinon",
     "test boilerplate"
   ],
-  "devDependencies": {},
   "scripts": {
     "postinstall": "npm install -g selenium-standalone",
     "kill-selenium": "kill -15 $( lsof -i:4444 -t )",
+    "pretest": "selenium.start()",
     "test": "./node_modules/.bin/wdio wdio.conf.js",
     "help": "./node_modules/.bin/wdio --help"
   },
