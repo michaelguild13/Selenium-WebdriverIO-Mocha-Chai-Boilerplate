@@ -50,7 +50,7 @@ use `npm run help` to see webdriverio's testrunner commands.
 
 while developing note that `Class browser.whatever()` uses all the methods here: <http://webdriver.io/api.html>
 
-For configuration changes, please refer to the wdio.config.js file. All the information on how to configure this can be found on webdriverio <http://webdriver.io/guide/testrunner/configurationfile.html>
+For configuration changes, please read & refer to the `wdio.config.js` file. All the information on how to configure this can be found on webdriverio <http://webdriver.io/guide/testrunner/configurationfile.html>
 
 The global scope for all tests is located in the `before` method inside of the wdio.config.js file
 
