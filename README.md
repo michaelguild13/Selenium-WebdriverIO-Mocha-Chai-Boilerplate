@@ -1,8 +1,7 @@
 #Selenium WebdriverIO Boilerplate with Mocha + Chai + Sinon
-Selenium + Node + webdriverio + mocha + chai + sinon
+Selenium + Node + webdriverio + phantomjs + mocha + chai + sinon
 
-We are using Webdriverio's TestRunner on top of Selenium to run all of our tests in mocha.
-I also included sinon so we can use it for unit testing within mocha.
+We are using Webdriverio's TestRunner, that comes with phantomjs, on top of Selenium to run all of our tests in mocha. I also included sinon so we can use it for unit testing within mocha.
 
 -------------
 Author: Michael Guild from <http://threde.com>
@@ -37,13 +36,12 @@ run `node run kill-selenium` to kill all machines running on port 4444.
 
 ##Run Tests
 -------------
-Run the selenium server `selenium-standalone start` (runs on port 4444) and then run `npm test` in a new terminal.
+To run tests, simply run `npm test`.
 
 note: `npm test`, runs all test within the test directory.
-
 To kill/stop all selenium instances use: `npm run kill-selenium`.
-
 use `npm run help` to see webdriverio's testrunner commands.
+Also, when the selenium-standalone server starts, it' running on port 4444
 
 ##Notes
 -------------
@@ -52,7 +50,8 @@ while developing note that `Class browser.whatever()` uses all the methods here:
 
 For configuration changes, please read & refer to the `wdio.config.js` file. All the information on how to configure this can be found on webdriverio <http://webdriver.io/guide/testrunner/configurationfile.html>
 
-The global scope for all tests is located in the `before` method inside of the wdio.config.js file
+The global scope for all tests is located in the `before` method inside of the wdio.config.js file.
+So, if you have any vars you want to declare for all your test to have access, you can put them there.
 
 `before: function (capabilities, specs) {
   ...
