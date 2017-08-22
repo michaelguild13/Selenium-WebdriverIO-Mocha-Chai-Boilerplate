@@ -17,6 +17,7 @@
     "sinon": "^1.17.5",
     "wdio-firefox-profile-service": "0.0.1",
     "wdio-mocha-framework": "^0.5.8",
+    "wdio-phantomjs-service": "^0.2.2",
     "wdio-selenium-standalone-service": "0.0.8",
     "wdio-spec-reporter": "0.0.5",
     "webdriverio": "^4.2.3"
