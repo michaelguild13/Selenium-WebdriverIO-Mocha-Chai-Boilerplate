@@ -31,8 +31,9 @@ Sinon <https://sinonjs.org> ( generates random units for testing )
 `npm install`
 
 ###Note: this installation requires Node 6^ , NPM 3^ , & Java 1.8^
-if you get an `cant connect to selenium`, it might be due to vagrant or another virtual machine.
-run `node run kill-selenium` to kill all machines running on port 4444.
+##Common Errors:
+- `cant connect to selenium`, it might be due to vagrant or another virtual machine. run `node run kill-selenium` to kill all machines running on port 4444.
+- `Error: Missing /usr/local/lib/node_modules/selenium-standalone/.selenium/chromedriver/XXX`. goto http://chromedriver.chromium.org/ and install the latest driver.
 
 ##Run Tests
 -------------
