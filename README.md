@@ -26,14 +26,12 @@ For configuration changes, please read & refer to the `wdio.config.js` file. All
 The global scope for all tests is located in the `before` method inside of the wdio.config.js file.
 So, if you have any vars you want to declare for all your test to have access, you can put them there.
 
-`before: function (capabilities, specs) {
+`
+before: function (capabilities, specs) {
   ...
 }
 `
--------------
-Author: Michael Guild from <http://threde.com>
-mg@threde.com
-michaelguild13@gmail.com
+
 
 Tech Stack
 -------------
