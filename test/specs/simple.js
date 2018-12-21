@@ -5,12 +5,12 @@ describe('webdriver.io page', ()=> {
 
     it('should have the right title - the fancy generator way', ()=> {
         browser.url('http://webdriver.io')
-        browser.getTitle().should.be.equal('WebdriverIO - WebDriver bindings for Node.js')
+        browser.getTitle().should.be.equal('WebdriverIO · Next-gen WebDriver test framework for Node.js')
     });
 
-    it('does "What-is-WebdriverIO" link exsist?', ()=> {
+    it('does have the title of "WEBDRIVER I/O"', ()=> {
         browser.url('http://webdriver.io')
-        browser.getText('#What-is-WebdriverIO').should.be.equal('What is WebdriverIO?')
+        browser.getText('.projectTitle').should.be.equal('WEBDRIVER I/O')
     });
 
     it('All links should point to an exsiting page', ()=> {
