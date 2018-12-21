@@ -3,29 +3,6 @@
 
 We are using Webdriverio's TestRunner, that comes with phantomjs, on top of Selenium to run all of our tests in mocha. I also included sinon so we can use it for unit testing within mocha.
 
--------------
-Author: Michael Guild from <http://threde.com>
-
-mg@threde.com
-
-michaelguild13@gmail.com
-
-
-Tech Stack
--------------
-node ( Version 6^ ) <https://nodejs.org>
-
-selenium-standalone <https://github.com/vvo/selenium-standalone>
-
-webdriverio <https://github.com/webdriverio/webdriverio/>
-
-Mocha <https://mochajs.org/>
-
-Chai <https://chaijs.com> ( test are written in Chai with es6 )
-
-Sinon <https://sinonjs.org> ( generates random units for testing )
-
-
 Installation
 -------------
 `npm install`
@@ -53,3 +30,21 @@ So, if you have any vars you want to declare for all your test to have access, y
   ...
 }
 `
+-------------
+Author: Michael Guild from <http://threde.com>
+mg@threde.com
+michaelguild13@gmail.com
+
+Tech Stack
+-------------
+node ( Version 6^ ) <https://nodejs.org>
+
+selenium-standalone <https://github.com/vvo/selenium-standalone>
+
+webdriverio <https://github.com/webdriverio/webdriverio/>
+
+Mocha <https://mochajs.org/>
+
+Chai <https://chaijs.com> ( test are written in Chai with es6 )
+
+Sinon <https://sinonjs.org> ( generates random units for testing )
