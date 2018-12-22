@@ -1,5 +1,5 @@
 
-**Selenium WebdriverIO Boilerplate with Mocha + Chai + Sinon**
+**Selenium WebdriverIO Boilerplate with Mocha + Chai**
 
 We are using Webdriverio's TestRunner, that comes with phantomjs, on top of Selenium to run all of our tests in mocha. I also included sinon so we can use it for unit testing within mocha.
 
@@ -9,7 +9,7 @@ Installation
 
 Run Tests
 -------------
-To run tests, simply run `npm start`.
+run `npm start` or `npm test`.
 
 note: `npm test`, runs all test within the test directory.
 To kill/stop all selenium instances use: `npm run kill-selenium`.
@@ -44,5 +44,3 @@ webdriverio <https://github.com/webdriverio/webdriverio/>
 Mocha <https://mochajs.org/>
 
 Chai <https://chaijs.com> ( test are written in Chai with es6 )
-
-Sinon <https://sinonjs.org> ( generates random units for testing )
