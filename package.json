@@ -15,7 +15,6 @@
     "mocha": "^5.1.0",
     "node-fetch": "^2.1.2",
     "selenium-standalone": "^6.15.4",
-    "sinon": "^4.5.0",
     "wdio-chromedriver-service": "^0.1.5",
     "wdio-firefox-profile-service": "0.1.1",
     "wdio-mocha-framework": "^0.5.13",
@@ -33,7 +32,6 @@
     "webdriverio",
     "mocha",
     "chai",
-    "sinon",
     "test boilerplate"
   ],
   "scripts": {
