@@ -9,7 +9,7 @@ Installation
 
 Run Tests
 -------------
-To run tests, simply run `npm start`.
+run `npm start` or `npm test`.
 
 note: `npm test`, runs all test within the test directory.
 To kill/stop all selenium instances use: `npm run kill-selenium`.
