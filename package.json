@@ -39,7 +39,7 @@
   "scripts": {
     "postinstall": "./node_modules/.bin/selenium-standalone install",
     "kill-selenium": "kill -15 $( lsof -i:4444 -t )",
-    "start": "./node_modules/.bin/selenium-standalone start & npm test ",
+    "start": "npm test",
     "test": "./node_modules/.bin/wdio wdio.conf.js",
     "help": "./node_modules/.bin/wdio --help"
   },
